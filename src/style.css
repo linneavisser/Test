@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+    cursor: none;
+    margin: 0;
+}
+/* cursor */
+#cursor {
+    background-color: #FFFF00;
+    border-radius: 50px;
+    height: 15px;
+    width: 15px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+   }
